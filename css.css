@@ -1,0 +1,84 @@
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+} 
+
+body{
+	background: #ccc;
+	height: 800px;
+
+}
+#encabezado{
+    width: 100%;
+    height: 200px;
+    background: #FFFFFC;
+    position:relative;
+}
+#contador{
+	margin-top: 15px;
+	position: absolute;
+}
+#contenedor{
+	height: 100%;
+    width: 80%;
+	background:#FFFFFC;
+	margin-left: 10%;
+
+}
+#logo{
+	background-image: url("imagenes/logoUNAD.png");
+	background-repeat: no-repeat;
+	background-size:70% 80%;
+	position:absolute;
+	margin-left: 70%;
+	margin-top:20px;
+	height: 150px;
+	width: 400px;
+}
+#pie{
+	height: 100px;
+	width: 100%;
+	background:#C0C0C0;
+}
+ul, ol{
+	list-style:none;
+}
+ul, ol{
+	list-style:none;
+}
+#menu{
+      position:absolute;
+      margin-top:151.5px;
+      width:100%;
+      background:#337DFF;
+}
+.menu > li {
+	float:left;
+}
+.menu li a{	
+	color:#fff; 
+	padding:13px;
+	display: block;
+	background:#337DFF;
+	font-family: arial black;
+	text-decoration:none;
+}
+.menu li a:hover{
+	background:#011DAA;
+}
+.menu li ul{
+	display:none;
+	position:absolute;
+	min-width:500px;
+	background:#A076C5;
+}
+.menu li:hover > ul {
+	display:block;
+}
+.menu li ul li {
+	position:relative;
+}
+.menu li ul li ul{
+	right:-140px;
+}
